@@ -34,7 +34,7 @@ const GridItem = ({
                 className="w-[50%]"
               />
             ) : (
-              <div className="w-full h-full p-5 flex items-center justify-center text-gray-300 text-xl">
+              <div className="w-full text-xs h-full p-5 flex items-center justify-center text-gray-300 md:text-xl">
                 {item.tip}
               </div>
             )}
