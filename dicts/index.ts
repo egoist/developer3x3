@@ -7,6 +7,8 @@ const dictsMap = {
 
 export type Dicts = typeof import("./en.json")
 
+export const langNames = Object.keys(dictsMap)
+
 export const getDicts = (
   lang: string | undefined
 ): (() => Promise<{ default: Dicts }>) => {
