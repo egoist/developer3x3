@@ -2,6 +2,7 @@ import "server-only"
 
 const dictsMap = {
   en: () => import("./en.json"),
+  fr: () => import("./fr.json"),
   "zh-cn": () => import("./zh-cn.json"),
 }
 
