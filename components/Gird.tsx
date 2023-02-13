@@ -132,6 +132,9 @@ export const Grid = ({ dicts, lang }: { dicts: Dicts; lang: string }) => {
             )
           })}
         </div>
+        <div className="text-gray-400 mt-1 text-center text-xs">
+          made with 3x3.egoist.dev
+        </div>
       </div>
       <div className="mt-5 px-5 flex flex-col md:flex-row gap-3 justify-between items-center">
         <div className="flex gap-3">
