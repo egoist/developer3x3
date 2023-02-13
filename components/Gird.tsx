@@ -59,17 +59,9 @@ export const Grid = ({ dicts, lang }: { dicts: Dicts; lang: string }) => {
   const [items, setItems] = useState<GridItemType[]>([
     {
       name: dicts["gateway-project"],
-      technology: {
-        icon: "vue.svg",
-        name: "vue",
-      },
     },
     {
       name: dicts["most-recommended"],
-      technology: {
-        icon: "https://trpc.io/img/logo-text-black.svg",
-        name: "trpc",
-      },
     },
     {
       name: dicts["most-experienced"],
