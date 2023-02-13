@@ -7,7 +7,7 @@ export default function Layout({ children }: { children: React.ReactNode }) {
     <html>
       <body>
         {children}
-        <AnalyticsWrapper />
+        {process.env.NODE_ENV === "production" && <AnalyticsWrapper />}
       </body>
     </html>
   )
