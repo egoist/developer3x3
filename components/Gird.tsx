@@ -82,8 +82,8 @@ export const Grid = ({ dicts, lang }: { dicts: Dicts; lang: string }) => {
       name: dicts["most-hated"],
     },
     {
-      name: dicts["gulty-pleasure"],
-      tip: dicts["gulty-pleasure-description"],
+      name: dicts["guilty-pleasure"],
+      tip: dicts["guilty-pleasure-description"],
     },
   ])
 
@@ -161,6 +161,7 @@ export const Grid = ({ dicts, lang }: { dicts: Dicts; lang: string }) => {
             onChange={(e) => router.push(`/${e.target.value}`)}
           >
             <option value="en">English</option>
+            <option value="fr">Français</option>
             <option value="zh-cn">简体中文</option>
           </select>
           <a
