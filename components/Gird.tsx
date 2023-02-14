@@ -162,6 +162,7 @@ export const Grid = ({ dicts, lang }: { dicts: Dicts; lang: string }) => {
           >
             <option value="en">English</option>
             <option value="fr">Français</option>
+            <option value="de">German</option>
             <option value="zh-cn">简体中文</option>
           </select>
           <a
